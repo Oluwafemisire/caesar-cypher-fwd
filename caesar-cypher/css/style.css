@@ -1,0 +1,60 @@
+body{
+  font-family: "Poppins", sans-serif;
+  background-color:aquamarine;
+  margin: 50;
+  color: #231f20;
+  align-items: center;
+}
+#welcome{
+  text-align: center;
+}
+#message-form{
+  text-align: center;
+  padding: 40px;
+  flex-direction: column;
+}
+#message{
+  display: inline-block;
+  padding: 12px 12px;
+  background-color: blanchedalmond;
+  border:#231f20;
+  font-family:"Poppins";
+  border-radius: 16px;
+}
+#offset{
+  display: inline-block;
+  padding: 12px 12px;
+  background-color: blanchedalmond;
+  border:#231f20;
+  font-family: "Poppins";
+  border-radius: 16px
+}
+#submit{
+  display: inline-block;
+  padding: 12px 12px;
+  background-color:#dfa5b3;
+  border:#231f20;
+  font-family: "Poppins";
+  border-radius: 16px;
+
+}
+#submit:hover{
+  background-color: aliceblue;
+  color:#dfa5b3;
+  cursor: pointer;
+  transition: .4s;
+}
+#encrypt-decrypt:hover{
+  background-color: aliceblue;
+  color:#dfa5b3;
+  cursor: pointer;
+  transition: .4s
+}
+#encrypt-decrypt{
+  display: inline-block;
+  padding: 12px 12px;
+  background-color:#dfa5b3;
+  border:#231f20;
+  font-family: "Poppins";
+  border-radius: 16px;
+}
